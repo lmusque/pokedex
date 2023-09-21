@@ -287,10 +287,11 @@ h1 {
 	}
 
 	#pokedex {
-		width: 260px;
+/* 		width: 260px; */
+		width: 100vw;
 		margin: 0 auto;
-		margin-top: -5rem;
-		margin-left: 1rem;
+/* 		margin-top: -5rem;
+		margin-left: 1rem; */
 		height: auto;
 	}
 
