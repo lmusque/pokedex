@@ -268,19 +268,28 @@ h1 {
 		padding-top: 10px;
 		height: 100vh;
 		width: 100vw;
+		overflow-x: hidden;
 	}
 	h2,
 	span {
-		font-size: 15px;
+		font-size: 12px;
 	}
 	img {
-		height: 70px;
+		height: 50px;
+	}
+	.top {
+		justify-content: space-between;
+	}
+	.image-container {
+		width: 50px;
+		text-align: center;
+		margin-bottom: 5px;
 	}
 
 	#pokedex {
-		width: 58%;
+		width: 260px;
 		margin: 0 auto;
-		margin-top: 2rem;
+		margin-top: -5rem;
 		margin-left: 1rem;
 		height: auto;
 	}
@@ -297,8 +306,9 @@ h1 {
 	}
 
 	.display-outer {
-		width: 90%;
-		margin-top: 2rem;
+		width: 100%;
+		margin-top: 1rem;
+		padding: 8px;
 	}
 
 	.top {
@@ -310,12 +320,6 @@ h1 {
 	.details {
 		text-align: center;
 		margin-top: 10px;
-	}
-
-	.image-container {
-		width: 80px;
-		text-align: center;
-		margin-bottom: 10px;
 	}
 
 	#description {
